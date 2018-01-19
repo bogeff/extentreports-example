@@ -1,0 +1,42 @@
+**/*.iml
+*.iml
+
+## Directory-based project format:
+.idea/*
+
+## File-based project format:
+*.ipr
+*.iws
+*.war
+
+### eclipse:
+**/.project
+**/.classpath
+**/.settings/**
+
+# Generated files
+build/
+classes/
+
+# mpeltonen/sbt-idea plugin
+**/.idea_modules/
+.idea/workspace.xml
+
+# Default IDEA properties
+!/.idea/codeStyleSettings.xml
+
+# Local configuration files
+local.properties
+
+### Maven ###
+**/target/
+/target/**
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.metadata
+
+/.svn/wc/db
+
+# test reports
+reports/
